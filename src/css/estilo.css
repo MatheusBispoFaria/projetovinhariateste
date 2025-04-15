@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: #f8f8f8;
+}
+
+#title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background-image: linear-gradient(to top, rgb(122, 13, 77), #2d0452 );
+    border-bottom: #000000 solid 2px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.preco{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    font-size: x-large;
+    color: green;
+}
+
+.produto{
+    width: 300px;
+    height: 630px; 
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    background-image: linear-gradient(#2d0452,rgb(122, 13, 77));
+    color: #000000;
+    border-radius: 20px;
+}
+
+.produto img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+button{
+    padding: 15px 45px;
+    font-size: 1.7rem;
+    width: 255px;
+    height: auto;
+    background: aquamarine;
+    border-radius: 20px;/*DEIXA OS CANTOS DAS BORDAS ARRENDODAS*/
+    color: white;
+}
+
+button:hover{
+    background: #0680d1;
+    color:black;
+}
+
+#conteudo{
+    background: #2d0452;
+}
+
+aside{
+    padding: 20px;
+    background: #f8f8f8;
+    border-top: #000000 solid 2px
+}
+
+.filtro{
+    padding: 10px;
+}
+
+footer{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f8f8;
+    border-top: #000000 solid 2px;
+}
+
+.contato{
+    padding: 20px;
+}
+
+.redesociais{
+    padding: 20px;
+}
+
+.direitos{
+    padding: 20px;
+}
