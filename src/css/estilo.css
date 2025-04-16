@@ -5,15 +5,24 @@
 }
 
 body{
-    background-image: linear-gradient(to bottom, #2d0452,rgb(122, 13, 77));
+    background-image: linear-gradient(to bottom, rgb(122, 13, 17), #000000,rgb(122, 13, 77));
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #title{
-    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 50px;
     color: rgb(255, 255, 255);
-    padding: 10px;
+    padding: 20px;
     border-bottom: #000000 solid 2px;
+    background-color: #000000;
+}
+#titleimg{
+    height: auto;
+    width: 100px;
+    margin-right: 20px;
 }
 
 #container{
@@ -21,12 +30,13 @@ body{
 }
 
 header nav ul{
-    display:inline-flex;
+    display: flex;
     justify-content: space-around;
     font-weight: 1000;
-    padding: 5px;
+    padding: 10px;
     margin: 0;
     gap: 430px;
+    width: 2500px;
 }
 
 header nav ul li a{
@@ -46,24 +56,21 @@ main{
 }
 
 aside{
-    padding: 20px;
     border-top: #000000 solid 2px
 }
 
 #titulodofiltro{
-    color: #f8f8f8;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    color: #ffffff;
+    background-color: #ffffff3d;
+    padding: 5px;
     font-size: 30px;
     justify-content: center;
 }
 
 .filtro ul{
-    margin-bottom: 10px;
-    padding: 0;
-    gap: 100px;
+    width: 2500px;
     display: flex;
+    justify-content: space-around;
 }
 
 .filtro a{
@@ -79,6 +86,7 @@ aside{
 
 li{
     list-style-type: none;
+    color: #ffffff;
 }
 
 .produto{
