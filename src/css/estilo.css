@@ -5,29 +5,38 @@
 }
 
 body{
-    background-image: #f8f8f8;
+    background-image: linear-gradient(to bottom, #2d0452,rgb(122, 13, 77));
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #title{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: xx-large;
     color: rgb(255, 255, 255);
     padding: 10px;
-    background-image: linear-gradient(to top, rgb(122, 13, 77), #2d0452 );
     border-bottom: #000000 solid 2px;
 }
 
 #container{
-    display: flex;
-    flex-direction: column;
     min-height: 100vh;
 }
 
-header{
-    color: black;
-    padding: 20px;
+header nav ul{
     display: flex;
-    justify-content: left;
+    justify-content: space-around;
+    font-weight: 1000;
+    padding: 5px;
+    margin: 0;
+    gap: 430px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #f8f8f8;
+    font-size: 25px;
+}
+
+header nav ul li a:hover{
+    color: #000000;
 }
 
 main{
@@ -36,24 +45,51 @@ main{
     justify-content: space-around;
 }
 
-.preco{
-    margin-top: 25px;
-    margin-bottom: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+aside{
+    padding: 20px;
+    border-top: #000000 solid 2px
+}
+
+#titulodofiltro{
+    color: #f8f8f8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.filtro ul{
+    margin-bottom: 10px;
+    padding: 0;
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.filtro a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
     font-weight: 1000;
-    font-size: x-large;
-    color: green;
+    font-size: 25px;
+}
+
+.filtro a:hover{
+    color: #000000;
+}
+
+li{
+    list-style-type: none;
 }
 
 .produto{
+    border-radius: 20px;
     width: 300px;
-    height: 630px; 
+    height: 650px; 
     margin: 20px;
     padding: 20px;
-    border: 2px solid black;
-    background-image: linear-gradient(#2d0452,rgb(122, 13, 77));
-    color: #000000;
-    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    color: #ffffff;
 }
 
 .produto img{
@@ -62,14 +98,22 @@ main{
     margin-bottom: 10px;
 }
 
+.preco{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 1000;
+    font-size: 20px;
+    color: green;
+}
+
 button{
     padding: 15px 45px;
     font-size: 1.7rem;
     width: 255px;
     height: auto;
-    background: aquamarine;
-    border-radius: 20px;/*DEIXA OS CANTOS DAS BORDAS ARRENDODAS*/
-    color: white;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
 }
 
 button:hover{
@@ -77,23 +121,13 @@ button:hover{
     color:black;
 }
 
-#conteudo{
-    background: #2d0452;
-}
-
-aside{
-    padding: 20px;
-    background: #f8f8f8;
-    border-top: #000000 solid 2px
-}
-
-.filtro{
-    padding: 10px;
+.titulovinho{
+    margin-bottom: 5px;
+    font-size: 20px;
 }
 
 footer{
-    margin-top: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 125px;
     background-color: #f8f8f8;
     border-top: #000000 solid 2px;
 }
@@ -104,6 +138,10 @@ footer{
 
 .redesociais{
     padding: 20px;
+}
+
+.redesociais a{
+    text-decoration: none;
 }
 
 .direitos{
