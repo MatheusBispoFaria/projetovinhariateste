@@ -6,7 +6,7 @@
 
 body{
     background-image: linear-gradient(to bottom, rgb(122, 13, 17), #000000,rgb(122, 13, 77));
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif;
 }
 
 #title{
@@ -32,7 +32,7 @@ body{
 header nav ul{
     display: flex;
     justify-content: space-around;
-    font-weight: 1000;
+    font-weight: 500;
     padding: 10px;
     margin: 0;
     gap: 430px;
@@ -55,28 +55,25 @@ main{
     justify-content: space-around;
 }
 
-aside{
-    border-top: #000000 solid 2px
-}
-
 #titulodofiltro{
     color: #ffffff;
-    background-color: #ffffff3d;
+    background-color: #0000003d;
     padding: 5px;
     font-size: 30px;
-    justify-content: center;
 }
 
 .filtro ul{
-    width: 2500px;
+    margin-top: 25px;
+    width: 2555px;
+    gap: 375px;
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
 }
 
 .filtro a{
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-weight: 1000;
+    font-weight: 500;
     font-size: 25px;
 }
 
