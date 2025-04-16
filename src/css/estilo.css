@@ -21,7 +21,7 @@ body{
 }
 
 header nav ul{
-    display: flex;
+    display:inline-flex;
     justify-content: space-around;
     font-weight: 1000;
     padding: 5px;
@@ -64,7 +64,6 @@ aside{
     padding: 0;
     gap: 100px;
     display: flex;
-    justify-content: center;
 }
 
 .filtro a{
