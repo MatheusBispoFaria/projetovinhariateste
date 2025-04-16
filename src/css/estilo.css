@@ -4,103 +4,102 @@
     box-sizing: border-box;
 }
 
+
+
 body{
     background-image: linear-gradient(to bottom, rgb(122, 13, 17), #000000,rgb(122, 13, 77));
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-optical-sizing: auto;
+
 }
+
+
+
 
 #title{
     display: flex;
     flex-direction: row;
     align-items: center;
     font-size: 50px;
-    color: rgb(255, 255, 255);
-    padding: 20px;
+    font-style: normal;
+    color:  rgb(122, 13, 17);
+    padding: px;
     border-bottom: #000000 solid 2px;
-    background-color: #000000;
+    background-color: #ffffff;
 }
 #titleimg{
     height: auto;
     width: 100px;
-    margin-right: 20px;
+    margin-right: 30px;
 }
+
+
 
 #container{
     min-height: 100vh;
 }
 
+
+
 header nav ul{
     display: flex;
     justify-content: space-around;
-    font-weight: 500;
-    padding: 10px;
-    margin: 0;
+    font-weight: 1000;
+    margin-top: 10px;
+    margin-bottom: 10px;
     gap: 430px;
     width: 2500px;
 }
-
+header nav ul li{
+    list-style-type: none;
+}
 header nav ul li a{
     text-decoration: none;
     color: #f8f8f8;
     font-size: 25px;
 }
-
 header nav ul li a:hover{
     color: #000000;
 }
+
+
 
 main{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
-#titulodofiltro{
-    color: #ffffff;
+.linhadosite{
     background-color: #0000003d;
-    padding: 5px;
     font-size: 30px;
+    height: 50px;
+    margin-bottom: 50px;
 }
 
-.filtro ul{
-    margin-top: 25px;
-    width: 2555px;
-    gap: 375px;
-    display: flex;
-    justify-content:center;
-}
 
-.filtro a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 25px;
-}
-
-.filtro a:hover{
-    color: #000000;
-}
-
-li{
-    list-style-type: none;
-    color: #ffffff;
-}
 
 .produto{
     border-radius: 20px;
     width: 300px;
     height: 650px; 
-    margin: 20px;
-    padding: 20px;
+    margin: 45px;
+    padding: 15px;
     border: 2px solid rgb(0, 0, 0);
     color: #ffffff;
 }
-
 .produto img{
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
 }
+.titulovinho{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+
+
 
 .preco{
     margin-top: 10px;
@@ -109,7 +108,6 @@ li{
     font-size: 20px;
     color: green;
 }
-
 button{
     padding: 15px 45px;
     font-size: 1.7rem;
@@ -119,35 +117,28 @@ button{
     border-radius: 20px;
     color: rgb(0, 0, 0);
 }
-
 button:hover{
     background: #0680d1;
     color:black;
 }
 
-.titulovinho{
-    margin-bottom: 5px;
-    font-size: 20px;
-}
+
 
 footer{
-    margin-top: 125px;
+    margin-top: 150px;
+    height: 600px 100px;
     background-color: #f8f8f8;
     border-top: #000000 solid 2px;
 }
-
 .contato{
     padding: 20px;
 }
-
 .redesociais{
     padding: 20px;
 }
-
 .redesociais a{
     text-decoration: none;
 }
-
 .direitos{
     padding: 20px;
 }
